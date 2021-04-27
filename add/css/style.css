@@ -1,0 +1,167 @@
+	*{
+        overflow-x: hidden;
+    }
+    body {
+	    margin: 0;
+	    background-color: gray;
+
+	    font-size: 15px;
+	    line-height: 1.6;
+	}
+
+.bg{
+    z-index: -9999;
+    position: relative;
+    width: 100vw;
+		height: 100vh;
+		  justify-content: center;
+		  align-items: center;
+}
+.bg .bg__text{
+	width: 100vw;
+	height: 100vh;
+	display: flex;
+	z-index: 5;
+	position: absolute;
+font-size: 10em;
+color: black;
+		  justify-content: center;
+		  align-items: center;
+			flex-direction: column;
+}
+.bg img{
+        width: 100vw;
+}
+.aaaaa h1 {
+	    color: #gray;
+	    font-size: 300px;
+	    font-weight: 700;
+	    text-transform: uppercase;
+	    line-height: 1;
+         text-align: center;
+	    font-family: Bubble;
+	    font-size: 100px;
+        overflow-y: hidden;
+	    text-shadow: yellow;
+	}
+    .cont{
+			margin-top :50px ;
+			position: relative;
+        display: flex;
+    }
+		.prakt ul{
+			display: flex;
+			font-size: 2em;
+            						flex-direction: column;
+		}
+		.prakt h2{
+                        overflow: hidden;
+			font-size: 2em;
+		}
+		.prakt ul li{
+            overflow: hidden;
+			padding: 0px 20px;
+		}
+		.prakt{
+                        overflow: hidden;
+						display: flex;
+			position: relative;
+                        height: 50vh;
+									width: 100vw;
+		}
+		.prakt .pcont{
+                        overflow: hidden;
+						display: flex;
+						flex-direction: column;
+			position: absolute;
+						width: 100vw;
+            height: 50vh;
+						justify-content: center;
+						align-items: center;
+						z-index: 99;
+		}
+.left{
+margin: 50px;
+    justify-content: center;
+    align-items: center;
+    max-width: 45vw;
+}
+.left img{
+    margin-top: 50px;
+   height: 100vh; 
+}
+.right {
+    backdrop-filter: blur(4px);
+    max-width: 45vw;
+}
+	h1,
+	h2,
+	h3,
+	h4,
+	h5,
+	h6 {
+	    margin: 0;
+	}
+
+
+	h1 {
+	   
+	}
+
+
+	.personalna-infa {
+	    font-size: 1.9em;
+	    text-align: justify;
+	    font-family: Times New Roman;
+	    text-shadow: yellow;
+	    text-align: center;
+	}
+
+
+.menu{
+	z-index: 999999;
+	position: fixed;
+	background-color: #0000002f;
+backdrop-filter: blur(5px);
+	width: 100vw;
+}
+.menu ul{
+	justify-content: center;
+	display: flex;
+}
+.menu ul li{
+		padding-right: 50px;
+		font-size: 2em;
+}
+.menu ul li a{
+			color: #ffffff;
+}
+
+	.osvita {
+	    font-size: 1.9em;
+	    text-align: justify;
+	    font-family: Times New Roman;
+	    text-shadow: yellow;
+	    text-align: center;
+	}
+
+
+
+
+	.professional_skills {
+	    font-size: 1.9em;
+	    text-align: inherit;
+	    text-shadow: yellow;
+	    text-align: center;
+	}
+
+
+
+	.contact_information {
+	    font-size: 1.9em;
+	    text-align: justify;
+	    font-family: Aesthetic;
+	    color: black;
+	    text-shadow: yellow;
+	    text-align: center;
+	}
